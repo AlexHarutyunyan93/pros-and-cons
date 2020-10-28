@@ -1,0 +1,14 @@
+.app {
+    max-width: 600px;
+    height: 480px;
+    margin: auto;
+    border: 1px solid;
+    border-color: rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+.app h1{
+    text-align: center;
+}
+.lists-wrapper {
+    display: flex;
+}
