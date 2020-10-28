@@ -1,0 +1,41 @@
+{
+  "pros": [
+    {
+      "id":  "23g84f2f2g3942",
+      "value": "a",
+      "type": "pros"
+    },
+    {
+      "id":  "s4fnw458nngn84",
+      "value": "b",
+      "type": "pros"
+    },
+    {
+      "id":  "2342c39429n342",
+      "value": "c",
+      "type": "pros"
+    },
+    {
+      "id":  "2342c3sdaq39429n342",
+      "value": "",
+      "type": "pros"
+    }
+  ],
+  "cons": [
+    {
+      "id":  "asdasdasdasdad",
+      "value": "a",
+      "type": "cons"
+    },
+    {
+      "id":  "s4fnw458adasdanngn84",
+      "value": "b",
+      "type": "cons"
+    },
+    {
+      "id":  "2342c394asdaa29n342",
+      "value": "",
+      "type": "cons"
+    }
+  ]
+}

@@ -12,3 +12,10 @@
 .lists-wrapper {
     display: flex;
 }
+
+.progress {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
