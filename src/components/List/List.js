@@ -5,14 +5,14 @@ import { HTML5Backend } from 'react-dnd-html5-backend'
 import './list.css'
 
 
-export function List({title, moveCard, data, handleChangePros, checkLists}) {
+export function List({title, moveCard, data, handleChangePros}) {
     return (
         <div className={'list-container-wrapper'}>
             <h3>{title.toUpperCase()}</h3>
             <DndProvider backend={HTML5Backend}>
                 <ol className={'list-container'} >
                     {
-                        data.map((e, index) => <ListItem  key={e.id} {...{checkLists, index, moveCard, handleChangePros, ...e}} />)
+                        data.map((e, index) => <ListItem  key={e.id} {...{index, moveCard, handleChangePros, ...e}} />)
                     }
                 </ol>
             </DndProvider>

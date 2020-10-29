@@ -11,20 +11,10 @@ function AppContainer() {
         dataService.getData().then(res => {
             setTimeout(() => {
                 setLists(res)
-            }, 0)
+            }, 1000)
         })
     }, [])
 
-    const checkLists = () => {
-        // let newState = {...lists};
-        // if(lists['pros'][lists['pros'].length-1].value) {
-        //     newState['pros'].push(new Item('pros'))
-        // }
-        // if(lists['cons'][lists['cons'].length-1].value) {
-        //     newState['cons'].push(new Item('pros'))
-        // }
-        // setLists(newState);
-    }
 
     const moveCard = useCallback((key, dragIndex, hoverIndex) => {
         const dragCard = lists[key][dragIndex];
@@ -55,7 +45,7 @@ function AppContainer() {
         setLists(newState);
     }
 
-    return <AppComponent state={lists} moveCard={moveCard} checkLists={checkLists} handleChangePros={handleChangePros} />
+    return <AppComponent state={lists} moveCard={moveCard} handleChangePros={handleChangePros} />
 
 
 }

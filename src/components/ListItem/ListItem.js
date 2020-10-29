@@ -3,7 +3,7 @@ import { useDrag, useDrop, DragSource } from 'react-dnd';
 import {ItemTypes} from "../../types";
 import './listItem.css';
 
-export function ListItem({value, id, type, handleChangePros, index, moveCard, checkLists}){
+export function ListItem({value, id, type, handleChangePros, index, moveCard}){
 
     const ref = useRef(null);
 
